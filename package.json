@@ -1,7 +1,7 @@
 {
   "name": "egov-permis-auto",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "",
   "main": "script.js",
   "scripts": {
@@ -11,14 +11,23 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "axios": "^1.13.2",
     "body-parser": "^2.2.0",
+    "canvas": "^3.2.0",
+    "chart.js": "^4.5.1",
+    "chartjs-node-canvas": "^5.0.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^8.19.2",
     "mongose": "^0.0.2-security",
     "pdfkit": "^0.17.2",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.6",
     "xml2js": "^0.6.2"
-  },
-  "devDependencies": {}
+  }
 }
