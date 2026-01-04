@@ -1,0 +1,80 @@
+/* App.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #f3f6fb;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.form-container {
+  background: white;
+  padding: 35px 45px;
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  width:700px;
+  max-width: 95%;
+}
+
+h1 { text-align: center; color: #23408e; margin-bottom: 25px; font-size: 1.5rem; }
+
+label { display: block; margin-bottom: 6px; font-weight: 600; }
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+input[readonly] { background-color: #f0f0f0; }
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #23408e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover { background-color: #325fd6; }
+
+.msg {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.msg.info { background-color: #dbe9ff; color: #23408e; }
+.msg.success { background-color: #d4edda; color: #155724; }
+.msg.error { background-color: #f8d7da; color: #721c24; }
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+legend { font-weight: 600; padding: 0 5px; }
+
+a { color: #23408e; text-decoration: none; font-weight: 600; }
+a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .form-container { padding: 20px 25px; }
+  h1 { font-size: 1.3rem; }
+  button { font-size: 14px; }
+}
